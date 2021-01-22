@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*!
 * Start Bootstrap - Grayscale v6.0.2 (https://startbootstrap.com/themes/grayscale)
 * Copyright 2013-2020 Start Bootstrap
@@ -372,7 +372,7 @@ h1, .h1 {
 h2, .h2 {
   font-size: 2rem;
   padding:2rem;
-  padding-top:5rem;
+  padding-top:3rem;
 }
 
 h3, .h3 {
@@ -477,7 +477,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: 30rem;
+  height: 20rem;
 }
 
 .img-thumbnail {
@@ -10290,11 +10290,16 @@ body {
 
 .projects-section {
   padding: 5rem 0;
+  height:85vh;
 }
 .projects-section .featured-text {
   padding-left: 1.5rem;
 }
 @media (min-width: 992px) {
+  .projects-section {
+        padding: 5rem 0;
+        height: 72vh;
+    }
   .projects-section .featured-text {
     padding: 0 0 0 1rem;
   }
@@ -10391,3 +10396,11 @@ body {
   padding: 5rem;
 }
 
+.indicators {
+    background-color: #64a19d !important;
+}
+
+#landingpage {
+    overflow: auto;
+    max-height:30vh
+}
